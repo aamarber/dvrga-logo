@@ -1,0 +1,29 @@
+:root{
+    --bg-color: #060C0C;
+    --gold-color: #D9C472;
+    --stroke-width: 2em;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+svg{
+    height: 100vh;
+    width: 100%;
+}
+
+polygon{
+    fill:none;
+    stroke: var(--gold-color);
+    stroke-width: var(--stroke-width);
+}
+
+circle{
+    fill: var(--gold-color)
+}
+
+line{
+    stroke: var(--gold-color);
+    stroke-width:  var(--stroke-width);;
+}
